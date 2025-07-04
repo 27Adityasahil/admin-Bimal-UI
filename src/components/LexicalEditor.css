@@ -1,0 +1,11 @@
+.editor-container {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  min-height: 200px;
+  border-radius: 4px;
+}
+
+.editor-input {
+  min-height: 150px;
+  outline: none;
+}
