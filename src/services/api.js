@@ -1,7 +1,9 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "http://localhost:5000",
+  // baseURL: "http://localhost:5000",
+  baseURL: "https://admin-bimal-hospital.onrender.com",
+  
 });
 
 instance.interceptors.request.use((config) => {
